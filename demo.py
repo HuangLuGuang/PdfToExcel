@@ -9,5 +9,8 @@ import os
 if __name__ == '__main__':
     path = os.getcwd() + "/example/11111.pdf"
     out = os.getcwd() + "/out/"
+    if not os.path.exists(out):
+        os.makedirs(out)
     stockCode = "0001"
+
     generateExcel(path=path, out=out, stockCode=stockCode)
