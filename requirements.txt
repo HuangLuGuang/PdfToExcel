@@ -6,7 +6,7 @@ openpyxl==2.6.2
 pandas==0.24.2
 pdfminer.six==20181108
 pdfplumber==0.5.12
-Pillow==6.1.0
+Pillow==6.2.0
 pycryptodome==3.8.2
 python-dateutil==2.8.0
 pytz==2019.1
